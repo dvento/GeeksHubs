@@ -1,11 +1,10 @@
 from telegram.ext import Updater, CommandHandler
 
 def main():
-# 1100117614:AAEmOIiSmV1ZjoPI5oGY-5gxA6uNZVOJUtE
 
 # open("./bot_token").read()
     # instanciar updater
-    updater = Updater(token="1100117614:AAEmOIiSmV1ZjoPI5oGY-5gxA6uNZVOJUtE", use_context=True)
+    updater = Updater(token="", use_context=True)
     updater.dispatcher.add_handler(CommandHandler("start", start))
 
     # new handler
